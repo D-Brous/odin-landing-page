@@ -1,0 +1,1 @@
+This is a TOP project dedicated to recreating a landing page from scratch purely based on an image and some basic info such as fonts, with the purpose of practicing basic html and css.
