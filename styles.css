@@ -1,3 +1,86 @@
+:root {
+  --dark-blue: #1F2937;
+  --medium-blue: #3882F6;
+  --off-white: #F9FAF8;
+  --light-gray: #E5E7EB;
+  --dark-gray: #bbbcc0;
+}
+
 body {
   font-family: "Roboto", sans-serif;
+}
+
+.header, .body-1, .footer {
+  background-color: var(--dark-blue);
+}
+
+.body-3 {
+  background-color: var(--light-gray);
+}
+
+.footer {
+  color: var(--light-gray);
+}
+
+.logo {
+  font-size: 24px;
+  color: var(--off-white);
+}
+
+.header-links {
+  color: var(--light-gray);
+}
+
+#statement-text {
+  font-size: 48px;
+  color: var(--off-white);
+  font-weight: 900;
+}
+
+#statement-subtext {
+  font-size: 18px;
+  color: var(--light-gray);
+}
+
+button {
+  background-color: var(--medium-blue);
+}
+
+.gray-image-box {
+  background-color: var(--dark-gray);
+  color: white;
+}
+
+#information {
+  font-size: 36px;
+  color: var(--dark-blue);
+  font-weight: 900;
+}
+
+.blue-image-box {
+  border-color: var(--medium-blue);
+}
+
+.caption {
+  color: var(--dark-gray);
+}
+
+.quote-text, .quote-origin {
+  color: var(--dark-blue);
+}
+
+.action-box {
+  background-color: var(--medium-blue);
+}
+
+#action-text {
+  color: white;
+}
+
+#action-subtext {
+  color: var(--light-gray);
+}
+
+#sign-up-2 {
+  border-color: white;
 }
