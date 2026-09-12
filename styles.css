@@ -17,7 +17,13 @@ body {
 }
 
 button {
+  font-size: 18px;
+  border: none;
+  border-radius: 8px;
+  padding: 8px 32px;
+  font-weight: 500;
   background-color: var(--medium-blue);
+  color: var(--off-white);
 }
 
 /* Header */
@@ -67,6 +73,7 @@ button {
 }
 
 #statement-subtext {
+  margin-bottom: 12px;
   font-size: 18px;
   color: var(--light-gray);
 }
@@ -108,7 +115,8 @@ button {
   box-sizing: border-box;
   width: 175px;
   height: 175px;
-  border: 5px solid var(--medium-blue);
+  border: 4px solid var(--medium-blue);
+  border-radius: 16px;
 }
 
 .caption {
@@ -182,7 +190,7 @@ button {
 }
 
 #sign-up-2 {
-  border-color: white;
+  border: 2px solid var(--off-white);
 }
 
 /* Footer */
