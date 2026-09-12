@@ -5,7 +5,8 @@
   --medium-blue: #3882F6;
   --off-white: #F9FAF8;
   --light-gray: #E5E7EB;
-  --dark-gray: #bbbcc0;
+  --medium-gray: #b1b6c3;
+  --dark-gray: #777b86;
 }
 
 /* Global or cross section */
@@ -15,13 +16,6 @@ body {
   margin: 0;
 }
 
-.header, .body-1, .footer {
-  background-color: var(--dark-blue);
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-}
-
 button {
   background-color: var(--medium-blue);
 }
@@ -29,26 +23,37 @@ button {
 /* Header */
 
 .header {
-  padding: 0 200px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 200px;
+  background-color: var(--dark-blue);
 }
 
 .logo {
   font-size: 24px;
+  font-weight: 700;
   color: var(--off-white);
 }
 
 .header-links {
   display: flex;
+  gap: 20px;
+  font-size: 18px;
   list-style-type: none;
   padding: 0;
   margin: 0;
-  color: var(--light-gray);
+  color: var(--medium-gray);
 }
 
 /* Body 1 */
 
 .body-1 {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
   padding: 100px 200px;
+  background-color: var(--dark-blue);
 }
 
 .body-1-left-column {
@@ -72,8 +77,9 @@ button {
   display: flex;
   justify-content: center;
   align-items: center;
+  font-size: 18px;
   background-color: var(--dark-gray);
-  color: white;
+  color: var(--off-white);
 }
 
 /* Body 2 */
@@ -83,27 +89,33 @@ button {
   justify-content: center;
   align-items: center;
   font-size: 36px;
-  color: var(--dark-blue);
   font-weight: 900;
+  padding: 40px;
+  color: var(--dark-blue);
 }
 
 .body-2-boxes-row {
   display: flex;
   justify-content: center;
+  margin-bottom: 125px;
 }
 
 .blue-box-and-text {
-  width: 150px;
-  margin: 30px;
+  margin: 0 25px;
 }
 
 .blue-image-box {
-  width: 150px;
-  height: 150px;
+  box-sizing: border-box;
+  width: 175px;
+  height: 175px;
   border: 5px solid var(--medium-blue);
 }
 
 .caption {
+  width: 175px;
+  text-align: center;
+  margin-top: 10px;
+  font-size: 18px;
   color: var(--dark-gray);
 }
 
@@ -181,5 +193,6 @@ button {
   align-items: center;
   height: 100px;
   font-size: 18px;
+  background-color: var(--dark-blue);
   color: var(--light-gray);
 }
