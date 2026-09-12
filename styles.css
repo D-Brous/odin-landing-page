@@ -1,3 +1,5 @@
+/* Variables */
+
 :root {
   --dark-blue: #1F2937;
   --medium-blue: #3882F6;
@@ -5,6 +7,8 @@
   --light-gray: #E5E7EB;
   --dark-gray: #bbbcc0;
 }
+
+/* Global or cross section */
 
 body {
   font-family: "Roboto", sans-serif;
@@ -18,10 +22,19 @@ body {
   align-items: center;
 }
 
+button {
+  background-color: var(--medium-blue);
+}
+
 /* Header */
 
 .header {
   padding: 0 200px;
+}
+
+.logo {
+  font-size: 24px;
+  color: var(--off-white);
 }
 
 .header-links {
@@ -29,6 +42,7 @@ body {
   list-style-type: none;
   padding: 0;
   margin: 0;
+  color: var(--light-gray);
 }
 
 /* Body 1 */
@@ -41,12 +55,25 @@ body {
   width: 400px;
 }
 
+#statement-text {
+  font-size: 48px;
+  color: var(--off-white);
+  font-weight: 900;
+}
+
+#statement-subtext {
+  font-size: 18px;
+  color: var(--light-gray);
+}
+
 .gray-image-box {
   width: 600px;
   height: 250px;
   display: flex;
   justify-content: center;
   align-items: center;
+  background-color: var(--dark-gray);
+  color: white;
 }
 
 /* Body 2 */
@@ -55,6 +82,9 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
+  font-size: 36px;
+  color: var(--dark-blue);
+  font-weight: 900;
 }
 
 .body-2-boxes-row {
@@ -71,6 +101,10 @@ body {
   width: 150px;
   height: 150px;
   border: 5px solid var(--medium-blue);
+}
+
+.caption {
+  color: var(--dark-gray);
 }
 
 /* Body 3 */
@@ -121,15 +155,22 @@ body {
   width: 1000px;
   height: 175px;
   padding: 0 125px;
+  background-color: var(--medium-blue);
 }
 
 #action-text {
   font-size: 24px;
   font-weight: 700;
+  color: white;
 }
 
 #action-subtext {
   font-size: 18px;
+  color: var(--light-gray);
+}
+
+#sign-up-2 {
+  border-color: white;
 }
 
 /* Footer */
@@ -141,62 +182,4 @@ body {
   height: 100px;
   font-size: 18px;
   color: var(--light-gray);
-}
-
-
-
-
-.logo {
-  font-size: 24px;
-  color: var(--off-white);
-}
-
-.header-links {
-  color: var(--light-gray);
-}
-
-#statement-text {
-  font-size: 48px;
-  color: var(--off-white);
-  font-weight: 900;
-}
-
-#statement-subtext {
-  font-size: 18px;
-  color: var(--light-gray);
-}
-
-button {
-  background-color: var(--medium-blue);
-}
-
-.gray-image-box {
-  background-color: var(--dark-gray);
-  color: white;
-}
-
-#information {
-  font-size: 36px;
-  color: var(--dark-blue);
-  font-weight: 900;
-}
-
-.caption {
-  color: var(--dark-gray);
-}
-
-.action-box {
-  background-color: var(--medium-blue);
-}
-
-#action-text {
-  color: white;
-}
-
-#action-subtext {
-  color: var(--light-gray);
-}
-
-#sign-up-2 {
-  border-color: white;
 }
